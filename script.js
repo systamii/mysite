@@ -4,7 +4,6 @@ let ViewMilliaCombos = document.querySelector("#millia_button");
 let ViewMiscCombos = document.querySelector('#rand_button');
 let VidDiv = document.querySelector("#VidDiv");
 let ToggleDarkMode = document.querySelector("#DButton")
-let YeaBwoi = document.body;
 //assigning variables to the mp4s
 
 let Ram1 = document.createElement("video").className ="combos";
