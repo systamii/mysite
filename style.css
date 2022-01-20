@@ -1,0 +1,119 @@
+body{
+    background-color: teal;
+    margin:0px;
+border: 0px;
+}
+#pfp_div{
+    display:flex;
+}
+#navigation{
+    display:flex;
+    margin:0px;
+}
+
+#nav_div img{
+    width:60px;
+    height:60px;
+}
+
+#nav_div{
+    border-width: 0px;
+    margin: 0px;
+    border-style: groove;
+    border-color:gray;
+    display:flex;
+    color:teal;
+    font-weight: bold;
+    background-color:gray;
+    width: 100%;
+    justify-content: space-around;
+    font-size: 24px;
+    padding:5px;
+}
+
+#DarkMode{
+    display:flex;
+    justify-content: center;
+}
+
+#ToggleDarkMode{
+    display:flex;
+    justify-content: center;
+}
+
+
+
+#pfp{
+display: block;
+margin-left: auto;
+margin-right: auto;
+width: 25%;
+height:290px;
+border-radius:50%
+}
+
+#GOAT{
+    width:100%;
+    height:350px;
+}
+#text{
+    display:flex;
+    color:white;
+    justify-content: center;
+}
+.pfp_description{
+    color:white;
+    text-align: center;
+}
+.Info{
+    color:white;
+}
+
+#primogem{
+    display:flex;
+    justify-content: center;
+    height:60px;
+}
+#socialpic{
+    display:flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+#logo1{
+    width: 90px;
+}
+#logo2{
+    width:90px;
+}
+#logo{
+    width:90px;
+}
+/* find me @
+put instagram
+put twitter
+
+^ All of these to the left of your PFP
+*/
+
+
+
+#GGCR{
+    color:white;
+    text-align: center;
+    font-weight: bold;
+}
+
+#buttons{
+    display:flex;
+    justify-content: center;
+}
+#VidDiv{
+display:flex;   
+justify-content: center;
+}
+
+body.dark-theme {
+    --text-color: #fff;
+    --bkg-color: #222;
+  }
