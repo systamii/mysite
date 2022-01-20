@@ -21,12 +21,6 @@ let milliaArray = ["Millia1","Millia2"];
 let ramArray = ["Ram1","Ram2"];
 let RandomArray = ["Ky","Anji","Sol","May"];
 
-//button clicked stuff 
-ToggleDarkMode.addEventListener("click",BlackMode);
-function BlackMode(){
-  let YeaBwoi = document.body;
-    YeaBwoi.classList.toggle("dark-mode");
-}
 
 ViewRamCombos.addEventListener("click",clicked);
 function clicked(){
