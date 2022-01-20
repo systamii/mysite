@@ -28,7 +28,7 @@ function clicked(){
     randInt = Math.floor(randNum); //round the number chosen up or down
     randChar = ramArray[randInt]; //let randChar equal a randomInt (aka random video) from the Ram Array
     let newElement = document.createElement('video'); //set up video player
-    newElement.setAttribute(randChar +'.mp4'); //make the random vid from the Ram Array a video
+    newElement.setAttribute('src', 'combos/' + randChar +'.mp4'); //make the random vid from the Ram Array a video
     VidDiv.appendChild(newElement); //append this random video to VidDiv
     newElement.setAttribute("width", "480"); //controls stuff
     newElement.setAttribute("height", "400"); //controls stuff
@@ -42,7 +42,7 @@ function millia(){
   randInt1 = Math.floor(randNum1);
   randChar1 = milliaArray[randInt1];
   let newElement1 = document.createElement('video');
-  newElement1.setAttribute(randChar1 +'.mp4');
+  newElement1.setAttribute('src', 'combos/' + randChar1 +'.mp4');
   VidDiv.appendChild(newElement1);
   newElement1.setAttribute("width", "480");
   newElement1.setAttribute("height", "400");
@@ -56,7 +56,7 @@ function bombo1(){
   randInt2 = Math.floor(randNum2);
   randChar2 = RandomArray[randInt2];
   let newElement2 = document.createElement('video');
-  newElement2.setAttribute(randChar2 +'.mp4');
+  newElement2.setAttribute('src', 'combos/' + randChar2 +'.mp4');
   VidDiv.appendChild(newElement2);
   newElement2.setAttribute("width", "480");
   newElement2.setAttribute("height", "400");
